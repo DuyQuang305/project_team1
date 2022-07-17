@@ -1,4 +1,13 @@
 @media  screen and (max-width: 376px) {
+
+        .hide-mobile {
+                display: none;
+        }
+
+        .visible-mobile {
+                display: block
+        }
+
         .header {
                 padding:  20px;
                 height: 65px;
@@ -13,9 +22,35 @@
                 display: none;
         }
 
+        .header__menu-link {
+                color: #fff;
+        }
+
         .header__menu-icon {
                 display: block;
         }
+
+        .mobile__menu{
+                padding: 22px;
+                list-style: none;
+                background-color: #000;
+                animation: animate 1.5s ease-in-out;
+        }
+
+        .mobile__menu-item{
+                text-align: right;
+        }
+
+        .mobile__menu-item + .mobile__menu-item{
+                margin-top: 20px;
+        }
+
+        .mobile__menu-link{
+                font-size: 16px;
+                line-height: 20px;
+                color: #fff
+        }
+       
 
         .body__content-img {
                 margin-top: 52px;
@@ -85,6 +120,16 @@
                 max-width: 287px;
                 font-size: 13px;
                 line-height: 18.2px;
+        }
+
+        @keyframes animate{
+                from { 
+                        opacity: 0;
+                }
+
+                to { 
+                        opacity: 1;
+                }
         }
 
       }

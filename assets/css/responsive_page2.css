@@ -25,6 +25,33 @@
                 display: block;
         }
 
+        .mobile__menu{
+                padding: 22px;
+                list-style: none;
+                background-color: #000;
+                animation: animate 1.5s ease-in-out;
+        }
+
+        .mobile__menu-item{
+                text-align: right;
+        }
+
+        .mobile__menu-item + .mobile__menu-item{
+                margin-top: 20px;
+        }
+
+        .mobile__menu-item--blog{
+        
+        }
+        .mobile__menu-item--has-border{
+        
+        }
+        .mobile__menu-link{
+                font-size: 16px;
+                line-height: 20px;
+                color: #fff
+        }
+
       
         .body__content-title {
                 text-align: center;
@@ -245,6 +272,16 @@
                 max-width: 287px;
                 font-size: 13px;
                 line-height: 18.2px;
+        }
+
+        @keyframes animate{
+                from { 
+                        opacity: 0;
+                }
+
+                to { 
+                        opacity: 1;
+                }
         }
 
       }
