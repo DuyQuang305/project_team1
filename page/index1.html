@@ -5,7 +5,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Home</title>
+        <link rel="icon" href="../assets/svg/myFavicon.svg" type="image/x-icon" />
         <link rel="stylesheet" href="../assets/css/base.css">
         <link rel="stylesheet" href="../assets/css/main_1.css">
         <link rel="stylesheet" href="../assets/css/responsive_page1.css">
@@ -18,27 +19,29 @@
 <body>
         <div class="wrapper">
                 <div class="header">
-                        <div class="header__title-img">
-                                <img src="../assets/svg/NORDIC ROSE.svg" alt="title">
+                        <a href="#">
+                                <div class="header__title-img">
+                                        <img src="../assets/svg/NORDIC ROSE.svg" alt="title">
+                                </div>
+                        </a>
+                        <div class="header__menu">
+                                <a class="header__menu-item header__menu-item--blog ">
+                                        <p  class="header__menu-text">Blog</p>
+                                        <span></span>
+                                </a>
+                                <a class="header__menu-item header__menu-item--about">
+                                        <p class="header__menu-text">About</p>
+                                        <span></span>
+                                </a>
+                                <a class="header__menu-item header__menu-item--links">
+                                        <p class="header__menu-text">Links</p>
+                                        <span></span>
+                                </a>
+                                <a class="header__menu-item header__menu-item--projects">
+                                        <p  class="header__menu-text">Projects</p>
+                                        <span></span>
+                                </a>
                         </div>
-                        <ul class="header__menu">
-                                <li class="header__menu-item header__menu-item--blog header__menu-item--has-border">
-                                        <a href="#" class="header__menu-link">Blog</a>
-                                        <span></span>
-                                </li>
-                                <li class="header__menu-item header__menu-item--about">
-                                        <a href="#" class="header__menu-link">About</a>
-                                        <span></span>
-                                </li>
-                                <li class="header__menu-item header__menu-item--links">
-                                        <a href="#" class="header__menu-link">Links</a>
-                                        <span></span>
-                                </li>
-                                <li class="header__menu-item header__menu-item--projects">
-                                        <a href="#" class="header__menu-link">Projects</a>
-                                        <span></span>
-                                </li>
-                        </ul>
                         <div class="header__menu-icon">
                                 <img src="../assets/svg/menu_icon1.svg" alt="">
                         </div>
@@ -46,18 +49,18 @@
 
                 <!-- menu when screen 375px -->
                 <div class="mobile__menu hide-pc">
-                        <li class="mobile__menu-item mobile__menu-item--blog mobile__menu-item--has-border">
-                                <a href="#" class="mobile__menu-link">Blog</a>
-                        </li>
-                        <li class="mobile__menu-item mobile__menu-item--about">
-                                <a href="#" class="mobile__menu-link">About</a>
-                        </li>
-                        <li class="mobile__menu-item mobile__menu-item--links">
-                                <a href="#" class="mobile__menu-link">Links</a>
-                        </li>
-                        <li class="mobile__menu-item mobile__menu-item--projects">
-                                <a href="#" class="mobile__menu-link">Projects</a>
-                        </li>
+                        <a class="mobile__menu-item mobile__menu-item--blog">
+                                <p  class="mobile__menu-text">Blog</p>
+                        </a>
+                        <a class="mobile__menu-item mobile__menu-item--about">
+                                <p  class="mobile__menu-text">About</p>
+                        </a>
+                        <a class="mobile__menu-item mobile__menu-item--links">
+                                <p  class="mobile__menu-text">Links</p>
+                        </a>
+                        <a class="mobile__menu-item mobile__menu-item--projects">
+                                <p  class="mobile__menu-text">Projects</p>
+                        </a>
                 </div>
 
                 <div class="body">
@@ -207,9 +210,11 @@
                                 <li class="footer__item">Suspense</li>
                                 <li class="footer__item">Growth</li>
                         </ul>
-                        <div class="footer__title-img">
-                                <img src="../assets/svg/NORDICROSE2.svg" alt="title">
-                        </div>
+                        <a href="#">
+                                <div class="footer__title-img">
+                                        <img src="../assets/svg/NORDICROSE2.svg" alt="title">
+                                </div>
+                        </a>
                         <div class="footer__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit
                                 tempus erat egestas efficitur. In hac habitasse platea dictumst. Fusce a nunc eget
                                 ligula suscipit finibus. </div>
@@ -231,7 +236,7 @@
                 </div>
         </div>
 
-        <script src="../assets/js/index1.js"></script>
+        <script src="../assets/js/index.js"></script>
 </body>
 
 </html>

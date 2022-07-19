@@ -28,27 +28,46 @@
 
         .header__menu-icon {
                 display: block;
+                transition: 0.2s linear;
         }
 
         .mobile__menu{
-                padding: 22px;
+                padding: 22px 30px;
                 list-style: none;
-                background-color: #000;
-                animation: animate 1.5s ease-in-out;
+                background-color: #16253b;
+                animation: animate 1.5s ease-in;
         }
 
         .mobile__menu-item{
-                text-align: right;
+                width: 100%;
+                padding: 10px 20px;
+        }
+
+        .mobile__menu-item--has-active {
+                background-color: #3cc9f5;
+                border-radius: 10px;
+                animation: animateActive 1s ease-in-out;
         }
 
         .mobile__menu-item + .mobile__menu-item{
-                margin-top: 20px;
+                margin-top: 10px;
         }
 
-        .mobile__menu-link{
+        .mobile__menu-text{
                 font-size: 16px;
+                font-weight: 500;
                 line-height: 20px;
-                color: #fff
+                color: #777f96;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                width: 100%;
+                animation: alternate 1s ease-in-out;
+                pointer-events: none;
+        }
+
+        .mobile__menu-item--has-active .mobile__menu-text {
+                color: #fff;
+                
         }
        
 
@@ -131,5 +150,7 @@
                         opacity: 1;
                 }
         }
+
+        
 
       }

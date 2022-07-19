@@ -19,12 +19,24 @@ body {
         max-width: 1440px;
 }
 
-span, img {
+span, img, a {
         display: block;
 }
 
 a {
         text-decoration: none;
         color: #000;
+}
+
+@keyframes animateActive {
+        from {
+                width: 0;
+                opacity: 0;
+        }
+
+        to {
+                width: 100%;
+                opacity: 1;
+        }
 }
 

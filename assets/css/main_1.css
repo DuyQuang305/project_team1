@@ -22,7 +22,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        list-style: none;
+}
+
+.header__menu-item {
+        cursor: pointer;
 }
 
 .header__menu-item--blog + .header__menu-item--about {
@@ -37,26 +40,30 @@
         margin-left: 36px;
 }
 
-.header__menu-item--has-border {
+.header__menu-item--active {
         position: relative;
 }
 
-.header__menu-item--has-border span{
+.header__menu-item--active span{
         position: absolute;
         top: 100%;
         left: 0;
         width: 100%;
         border-bottom: 2px solid #000;
         transform: translateY(49px);
+        animation: animateActive 0.5s ease-in-out;
 }
 
-.header__menu-link {
+
+.header__menu-text {
         text-decoration: none;
         color: #000000;
         font-weight: 500;
         font-size: 20px;
         line-height: 34px;
-        letter-spacing: 2.4px;
+        letter-spacing: 0.55px;
+        text-transform: uppercase;
+        pointer-events: none;
         font-family: 'New York Small', sans-serif;
 }
 
@@ -129,13 +136,13 @@
 }
 .body__articles-text{
         max-width: 262px;
-        font-family: 'SF Pro Display', sans-serif;
+        margin: 0 auto;
         margin-top: 20px;
-        font-style: Medium;
         text-align: center;
         font-weight: 500;
         font-size: 22px;
         line-height: 26.4px;
+        font-family: 'SF Pro Display', sans-serif;
 }
 
 .footer{
@@ -258,3 +265,4 @@
 .hide-pc {
         display: none;
 }
+
