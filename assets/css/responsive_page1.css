@@ -9,7 +9,8 @@
         }
 
         .header {
-                padding:  20px;
+                padding-left:  20px;
+                padding-right:  20px;
                 height: 65px;
         }
 
@@ -100,7 +101,7 @@
 
         .body__articles-title {
                 margin-top: 56px;
-                font-family: New York Extra Large;
+                font-family: 'New York Extra Large';
                 font-weight: 700;
                 font-size: 32px;
                 line-height: 38.19px;
@@ -150,7 +151,5 @@
                         opacity: 1;
                 }
         }
-
-        
 
       }

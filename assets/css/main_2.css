@@ -316,7 +316,8 @@ display: flex;
 }
 
 .body__detail-desc{
-        font-family: 'SF Pro Text', 'sans-serif';
+        font-family: 'SF Pro Display', sans-serif;
+        display: flex;
         max-width: 640px;
         margin: 0 auto;
         margin-top: 32px;
@@ -325,8 +326,10 @@ display: flex;
         font-weight: 500;
 }
 
-.body__detail-desc a {
-        color: #000;
+.body__detail-desc span {
+        border-bottom: 1px solid #000;
+        margin-left: 3px;
+        letter-spacing: 1px;
 }
 
 
