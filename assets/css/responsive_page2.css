@@ -1,10 +1,10 @@
 @media  screen and (max-width: 376px) {
         .visible-mobile {
-                display: block
+                display: block !important;
         }
 
         .hide-mobile {
-                display: none
+                display: none !important;
         }
 
         .header {
