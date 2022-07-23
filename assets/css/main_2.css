@@ -601,6 +601,7 @@ display: flex;
         font-weight: 500;
         font-size: 16px;
         line-height: 27.2px;
+        text-decoration: underline;
 }
 
 .footer__text{
