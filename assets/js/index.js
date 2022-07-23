@@ -25,10 +25,8 @@ function handleToggleMenuMobile()  {
         menuIcon.onclick = function() {
                 menuMobile.classList.toggle('visible-mobile')
                 if (menuMobile.classList.contains('visible-mobile')) {
-                        contentImg.style.marginTop = '5px'
                         menuIcon.style.transform = 'scale(1.1)'
                 } else {
-                        contentImg.style.marginTop = '52px'
                         menuIcon.style.transform = 'scale(1)'
                 }
                 

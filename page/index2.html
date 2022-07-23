@@ -7,9 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Detail Post</title>
         <link rel="icon" href="../assets/svg/myFavicon.svg" type="image/x-icon" />
-        <link href="http://fonts.cdnfonts.com/css/new-york-extra-large" rel="stylesheet">
-        <link href="http://fonts.cdnfonts.com/css/sf-mono" rel="stylesheet">
-        <link href="http://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+                rel="stylesheet">
         <link rel="stylesheet" href="../assets/css/base.css">
         <link rel="stylesheet" href="../assets/css/main_2.css">
         <link rel="stylesheet" href="../assets/css/responsive_page2.css">
@@ -47,7 +48,7 @@
 
                 <!-- menu when screen 375px -->
                 <div class="mobile__menu hide-pc">
-                        <a class="mobile__menu-item mobile__menu-item--blog">
+                        <a class="mobile__menu-item mobile__menu-item--blog mobile__menu-item--has-active">
                                 <p class="mobile__menu-text">Blog</p>
                         </a>
                         <a class="mobile__menu-item mobile__menu-item--about">
@@ -205,29 +206,35 @@
                                 </div>
                                 <h2 class="body__articles-title">What to read next</h2>
                                 <div class="body__articles-list">
-                                        <div class="body__articles-item">
-                                                <div class="body__articles-img">
-                                                        <img src="../assets/img/article1.png" alt="article1">
+                                        <a class="hide-mobile" href="#">
+                                                <div class="body__articles-item">
+                                                        <div class="body__articles-img">
+                                                                <img src="../assets/img/article1.png" alt="article1">
+                                                        </div>
+                                                        <div class="body__articles-text">Here are some things you should know
+                                                                regarding how we work </div>
                                                 </div>
-                                                <div class="body__articles-text">Here are some things you should know
-                                                        regarding how we work </div>
-                                        </div>
+                                        </a>
 
-                                        <div class="body__articles-item">
-                                                <div class="body__articles-img">
-                                                        <img src="../assets/img/article2.png" alt="article1">
+                                        <a class="hide-mobile" href="">
+                                                <div class="body__articles-item">
+                                                        <div class="body__articles-img">
+                                                                <img src="../assets/img/article2.png" alt="article1">
+                                                        </div>
+                                                        <div class="body__articles-text">Granny gives everyone the finger, and
+                                                                other tips from OFFF Barcelona</div>
                                                 </div>
-                                                <div class="body__articles-text">Granny gives everyone the finger, and
-                                                        other tips from OFFF Barcelona</div>
-                                        </div>
+                                        </a>
 
-                                        <div class="body__articles-item">
-                                                <div class="body__articles-img">
-                                                        <img src="../assets/img/article3.png" alt="article1">
+                                        <a class="hide-mobile" href="">
+                                                <div class="body__articles-item">
+                                                        <div class="body__articles-img">
+                                                                <img src="../assets/img/article3.png" alt="article1">
+                                                        </div>
+                                                        <div class="body__articles-text">Hello world, or, in other words, why
+                                                                this blog exists</div>
                                                 </div>
-                                                <div class="body__articles-text">Hello world, or, in other words, why
-                                                        this blog exists</div>
-                                        </div>
+                                        </a>
 
                                         <div class="body__articles-item">
                                                 <div class="body__articles-img">

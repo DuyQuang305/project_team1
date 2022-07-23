@@ -41,7 +41,7 @@
         .mobile__menu-item--has-active {
                 background-color: #3cc9f5;
                 border-radius: 10px;
-                animation: animateActive 1s ease-in-out;
+                animation: animateActive 0.5s ease-in-out;
         }
 
         .mobile__menu-item + .mobile__menu-item{

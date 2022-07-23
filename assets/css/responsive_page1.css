@@ -47,7 +47,7 @@
         .mobile__menu-item--has-active {
                 background-color: #3cc9f5;
                 border-radius: 10px;
-                animation: animateActive 1s ease-in-out;
+                animation: animateActive 0.5s ease-in-out;
         }
 
         .mobile__menu-item + .mobile__menu-item{
@@ -62,7 +62,7 @@
                 text-transform: uppercase;
                 letter-spacing: 3px;
                 width: 100%;
-                animation: alternate 1s ease-in-out;
+                animation: animate 1s ease-in-out;
                 pointer-events: none;
         }
 
@@ -84,7 +84,6 @@
                 font-size: 36px;
                 font-weight: 700;
                 line-height: 42.96px;
-                font-family: 'New York Extra Large', sans-serif;
         }
 
         .body__content-desc {
@@ -101,7 +100,6 @@
 
         .body__articles-title {
                 margin-top: 56px;
-                font-family: 'New York Extra Large';
                 font-weight: 700;
                 font-size: 32px;
                 line-height: 38.19px;
